@@ -10,9 +10,10 @@ set( OpenGL_GL_PREFERENCE GLVND )
 # Build desktop version of raylib
 set( PLATFORM Desktop )
 
-# Build raylib as shared library
+# Build raylib as shared library, skip examples
 option( SHARED "Build raylib as shared library" ON )
 option( STATIC "Build raylib as static library" OFF )
+option( BUILD_EXAMPLE "Build raylib examples" OFF )
 
 # Add raylib
 add_subdirectory( raylib )
