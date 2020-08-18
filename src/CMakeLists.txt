@@ -7,4 +7,5 @@ endif()
 # add sources to target 
 target_sources( ${PROJECT_NAME}
                 PRIVATE 
+                factorial.cpp 
                 windows.cpp )
