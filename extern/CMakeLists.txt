@@ -8,7 +8,7 @@ endif()
 set( OpenGL_GL_PREFERENCE GLVND )
 
 # Build desktop version of raylib
-set( PLATFORM Desktop)
+set( PLATFORM Desktop )
 
 # Build raylib as shared library
 option( SHARED "Build raylib as shared library" ON )
