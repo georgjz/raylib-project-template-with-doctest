@@ -4,6 +4,8 @@ This repository contains a simple project template for creating a program with [
 
 The file structure reflects my personal preferences. If it is not to your liking, it should be easy to modify all the CMake files accordingly. [Raylib][1] is added as a [git submodule][3], as I prefer to build certain dependencies for my projects within it, as not to "pollute" my system-wide installs with libraries that only a few repositories use. This is, again, personal preference.
 
+Consider is code to be very much WIP. It will get updates as I get to understand raylib better.
+
 ## Things That I Want to Add
 
 * Unit Testing
