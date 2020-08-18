@@ -1,4 +1,6 @@
-extern "C" { #include "raylib.h" }
+extern "C" { 
+#include "raylib.h" 
+}
 #include "factorial.h"
 
 

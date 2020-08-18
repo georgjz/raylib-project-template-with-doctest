@@ -14,3 +14,7 @@ add_executable( ${PROJECT_NAME} "" )
 add_subdirectory( src )
 target_include_directories( ${PROJECT_NAME} PUBLIC "include" )
 target_link_libraries( ${PROJECT_NAME} raylib )
+
+# Build the tests 
+ENABLE_TESTING()
+ADD_SUBDIRECTORY( tests )
