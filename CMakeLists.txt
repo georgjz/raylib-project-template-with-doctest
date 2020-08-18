@@ -5,12 +5,11 @@ if( ${CMAKE_VERSION} VERSION_LESS 3.12 )
 endif()
 
 project( raylibtemplate VERSION 0.1 
-                        DESCRIPTION "A simple self-contained raylib project Template"
-                        LANGUAGES C )
+                        DESCRIPTION "A simple self-contained raylib project Template" )
 
 add_subdirectory( extern )
 
-# add_executable( ${PROJECT_NAME} src/main.cpp src/my_functions.cpp )
+# Create your game executable called "raylibtemplate"
 add_executable( ${PROJECT_NAME} "" )
 add_subdirectory( src )
 target_include_directories( ${PROJECT_NAME} PUBLIC "include" )
